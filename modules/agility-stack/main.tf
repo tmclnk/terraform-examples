@@ -12,7 +12,7 @@ provider "aws" {
   }
 }
 
-# Create a VPC Using Prebuild Module
+# Create a VPC Using Prebuilt Module
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.14.2"
@@ -28,6 +28,7 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = true
 
+  # VPC Flow Logs
   flow_log_file_format = "plain-text"
 }
 
