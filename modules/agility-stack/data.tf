@@ -1,3 +1,4 @@
+# What's the latest machine image for x86 ubuntu?
 data "aws_ami" "ubuntu" {
   most_recent = true
 
