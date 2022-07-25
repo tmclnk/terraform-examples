@@ -25,6 +25,10 @@ Terraform does _not_ do things like...
 - Provide a GUI
 - Configure VMs (use ansible, chef, puppet)
 
+Also worth noting, terraform could be run from a CI/CD pipeline, but probably shouldn't. If you have a _ton_ of
+resources, you can compose them together and script them, but generally speaking, you'll be doing `terraform apply` with
+hands-on-keyboard.
+
 ## How Do I Use This
 
 ### Install Terraform
