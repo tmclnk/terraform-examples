@@ -43,11 +43,12 @@ module "vpc" {
 #}
 
 resource "aws_db_instance" "app_database" {
-  instance_class    = "db.t4g.micro"
-  allocated_storage = var.db_size
-  engine            = "postgres"
-  username          = var.db_username
-  password          = var.db_password
+  instance_class      = "db.t4g.micro"
+  allocated_storage   = var.db_size
+  engine              = "postgres"
+  username            = var.db_username
+  password            = var.db_password
+  skip_final_snapshot = true
 
   db_subnet_group_name = module.vpc.database_subnet_group_name
   tags                 = {
