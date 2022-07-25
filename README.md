@@ -4,7 +4,7 @@
     - Not YAML
     - Declarative
     - Typed - strings, numbers, lists, maps
-- "Providers" for different platforms
+- [Providers for different platforms](https://registry.terraform.io/browse/providers)
     - Providers provide "resources",
       e.g. [aws provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/)
 - Modules
