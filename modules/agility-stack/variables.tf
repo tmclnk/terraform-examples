@@ -40,3 +40,13 @@ variable "db_password" {
   description = "Default database password."
   type        = string
 }
+
+variable "eks_cluster_max_nodes" {
+  description = "Max number of eks nodes."
+  type        = number
+}
+
+variable "eks_cluster_min_nodes" {
+  description = "Minimum number of eks nodes."
+  type        = number
+}
