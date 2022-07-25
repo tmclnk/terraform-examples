@@ -21,7 +21,7 @@
 Terraform does _not_ do things like...
 
 - Conditional if/then creation logic
--
+- Provide swappable configuration across cloud providers
 - Provide a GUI
 - Configure VMs (use ansible, chef, puppet)
 
