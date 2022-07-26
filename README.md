@@ -95,4 +95,4 @@ Terraform overlaps in different ways with...
 
 - [Slide Deck](https://lucid.app/documents/view/59254cb2-a853-4148-a94c-57fd9679bcd8)
 - [Hashicorp Configuration Language (HCL)](https://github.com/hashicorp/hcl) 
-
+- [Terraform Providers List](https://registry.terraform.io/browse/providers)
