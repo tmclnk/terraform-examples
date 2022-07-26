@@ -82,7 +82,7 @@ terraform destroy
 - A Redis cache
 - An EKS Cluster (maybe, if I get to it)
 
-# Alternative Technologies
+## Alternative Technologies
 
 Terraform overlaps in different ways with...
 
@@ -90,3 +90,9 @@ Terraform overlaps in different ways with...
 - AWS Libraries (namely boto3)
 - The AWS Console
 - CloudFormation (most similar)
+
+## Links
+
+- [Slide Deck](https://lucid.app/documents/view/59254cb2-a853-4148-a94c-57fd9679bcd8)
+- [Hashicorp Configuration Language (HCL)](https://github.com/hashicorp/hcl) 
+
